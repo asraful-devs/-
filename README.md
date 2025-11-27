@@ -19,6 +19,17 @@ A modern, real-time speech recognition application that converts spoken words in
 
 ---
 
+## 📸 UI Preview
+
+<div align="center">
+  <img src="./public/UI.png" alt="মুখে বলি - Voice to Text UI" width="100%" style="max-width: 800px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+
+_Beautiful and intuitive user interface for seamless voice-to-text conversion_
+
+</div>
+
+---
+
 ## ✨ Features
 
 -   🎤 **Real-time Speech Recognition** - Convert your voice to text instantly with continuous listening mode
@@ -32,39 +43,6 @@ A modern, real-time speech recognition application that converts spoken words in
 -   📊 **Character Counter** - Keep track of your transcription length in real-time
 -   ✏️ **Editable Transcript** - Edit recognized text directly in the textarea
 -   🔔 **Live Recording Indicator** - Visual and animated feedback when recording is active
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
--   **Node.js** (v16 or higher)
--   **npm** or **yarn** package manager
--   Modern browser with Web Speech API support (Chrome, Edge, Safari)
-
-## 📖 How to Use
-
-### Starting a Recording
-
-1. **Open the Application** - Visit the application in your web browser
-2. **Select Language** - Click on your preferred language button (বাংলা or English)
-3. **Start Recording** - Click the "রেকর্ডিং শুরু করুন" (Start Recording) button
-4. **Grant Permission** - Allow browser access to your microphone when prompted
-5. **Speak Clearly** - Speak into your microphone naturally
-
-### Stopping a Recording
-
--   Click the "রেকর্ডিং বন্ধ করুন" (Stop Recording) button (turns red while recording)
--   The app will process and display your transcription
-
-### Managing Your Text
-
-| Action    | Button        | Function                                                  |
-| --------- | ------------- | --------------------------------------------------------- |
-| **Copy**  | 🟢 কপি করুন   | Copy the transcript to clipboard with visual confirmation |
-| **Clear** | 🟠 মুছে ফেলুন | Clear the text and reset the app to start over            |
-| **Edit**  | Edit directly | Click in the text area to modify the transcript manually  |
 
 ---
 
@@ -122,26 +100,6 @@ You can easily add more languages by updating the `src/components/languages.ts` 
 
 ---
 
-## 🎨 Design Highlights
-
-### Visual Features
-
--   **Gradient Background** - Dynamic animated gradient with blur effects and layered blobs
--   **Glass Morphism** - Modern card design with backdrop blur and semi-transparent elements
--   **Responsive Layout** - Mobile-first design optimized for all screen sizes
--   **Smooth Animations** - Interactive feedback with fade-in, pulse, and blob animations
--   **Color Scheme** - Purple, cyan, and pink color palette for visual appeal
-
-### UI/UX Elements
-
--   **Glassmorphic Cards** - Modern, layered visual aesthetic
--   **Color-Coded Language Selection** - Visual distinction between selected and unselected languages
--   **Interactive Buttons** - Scale and transform on hover for better feedback
--   **Real-time Indicators** - Visual feedback showing recording status
--   **Accessibility** - Clear button states and visual indicators for all interactions
-
----
-
 ## 🌐 Browser Compatibility
 
 | Browser | Desktop | Mobile | Notes                        |
@@ -156,48 +114,6 @@ You can easily add more languages by updating the `src/components/languages.ts` 
 
 ---
 
-## 🔐 Privacy & Data
-
--   **No Data Collection** - All processing happens locally in your browser
--   **No Cloud Storage** - Your transcriptions are never sent to any server
--   **No Tracking** - No analytics or tracking cookies
--   **Complete Privacy** - Your voice and text remain entirely on your device
--   **No Account Required** - Use the app without registration
-
----
-
-## 🐛 Troubleshooting
-
-### Microphone Not Working
-
--   ✅ Ensure you've granted browser permission to access the microphone
--   ✅ Check that your microphone is working properly in system settings
--   ✅ Try using a different browser (Chrome/Edge recommended)
--   ✅ Restart your browser and try again
-
-### Speech Recognition Not Available
-
--   ✅ This feature requires a modern browser with Web Speech API support
--   ✅ Not all browsers support all languages
--   ✅ Try refreshing the page
--   ✅ Check browser console for error messages (F12 key)
-
-### Text Not Appearing
-
--   ✅ Speak clearly and wait for the browser to process
--   ✅ Ensure you've selected the correct language
--   ✅ Check that your selected language matches your speech
--   ✅ Try using a quieter environment for better recognition
-
-### Performance Issues
-
--   ✅ Clear browser cache and cookies
--   ✅ Disable browser extensions
--   ✅ Close other resource-heavy applications
--   ✅ Use a modern browser for best performance
-
----
-
 ## 🎓 Learning Resources
 
 -   [Web Speech API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
@@ -208,21 +124,6 @@ You can easily add more languages by updating the `src/components/languages.ts` 
 -   [Vite Guide](https://vitejs.dev/guide/)
 
 ---
-
-### Ways to Contribute
-
--   🐛 Report and fix bugs
--   ✨ Suggest and implement new features
--   📚 Improve documentation
--   🎨 Enhance UI/UX design
--   🌐 Add language support
--   ⚡ Optimize performance
-
----
-
-## 📝 License
-
-This project is open source and available under the **MIT License**. Feel free to use it for your personal and commercial projects.
 
 ---
 
@@ -248,19 +149,6 @@ This project is open source and available under the **MIT License**. Feel free t
 
 ---
 
-<div align="center">
+Thank you for checking out মুখে বলি! If you have any questions or suggestions, feel free to open an issue or contribute to the project. Happy coding! 🎉
 
-**Happy Transcribing! 🎉**
-
-Made with ❤️ by Md Asraful
-
-_Last Updated: November 2025_
-
-</div>
-
-```
-
-
-```
-
-# -
+---

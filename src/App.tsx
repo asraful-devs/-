@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import SpeechRecognition, {
     useSpeechRecognition,
 } from 'react-speech-recognition';
+import BrowserSupportsSpeechRecognition from './components/BrowserSupportsSpeechRecognition';
 import Help from './components/Help';
 import { languagesName } from './components/languages';
 
@@ -40,7 +41,7 @@ function App() {
         setDisplayText('');
     };
 
-    // <BrowserSupportsSpeechRecognition />;
+    <BrowserSupportsSpeechRecognition />;
 
     return (
         <div className='min-h-screen bg-linear-to-br from-slate-950 via-purple-950 to-slate-950 overflow-hidden relative'>
