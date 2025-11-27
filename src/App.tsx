@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import SpeechRecognition, {
     useSpeechRecognition,
 } from 'react-speech-recognition';
+import Help from './components/Help';
 import { languagesName } from './components/languages';
 
 function App() {
@@ -194,7 +195,7 @@ function App() {
                             </button>
                         </div>
 
-                        {/* <Help /> */}
+                        <Help />
                     </div>
 
                     {/* Footer text */}
